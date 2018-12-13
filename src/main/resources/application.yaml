@@ -1,0 +1,13 @@
+my:
+  name: YangZhiHua
+  age: 20
+  sclass: T170
+  number: ${random.int}
+  uuid: ${random.uuid}
+  max: ${random.int(10)}
+  value: ${random.value}
+  greeting: hi,i,m ${my.name} my age ${my.age} from ${my.sclass} ,number=${my.number},uuid=${my.uuid},max=${my.max},value=${my.value}
+server:
+  port: 8888
+#自定义属性
+#树桩型配置属性
